@@ -8,12 +8,15 @@ namespace hadanicisel_
         {
             bool neuhodl = true;
             int tipcislo;
+            int nahcislo;
+            int cislood;
+            int cislodo;
 
             Random random = new Random();
-            int nahcislo = random.Next(1, 100);
+            nahcislo = random.Next(1, 100);
 
             Console.WriteLine("hadani cisel");
-            Console.WriteLine("myslim si cislo od 1 do 100");
+            Console.WriteLine($"budu hadat cislo od {cislood} do {cislodo}");
 
             while (neuhodl)
             {
